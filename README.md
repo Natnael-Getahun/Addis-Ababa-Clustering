@@ -26,6 +26,7 @@ addis-road-clustering/
 ├── output/            # Figures and interactive map
 ├── requirements.txt   # Dependencies
 └── README.md
+```
 ## 📊 Results
 
 - Road networks grouped into **5 optimal clusters**
@@ -34,7 +35,7 @@ addis-road-clustering/
 
 ## 🌍 Interactive Map
 
-[Click here to view map](./output/map.html)  
+[Click here to view map](./output/map.html)
 *Hover to see cluster info; zoom to explore spatial coverage.*
 
 ## ⚠️ Limitations
