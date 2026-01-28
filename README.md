@@ -2,11 +2,11 @@
 
 This project explores how clustering algorithms—specifically KMeans—can be used to create more meaningful data collection zones in Addis Ababa by analyzing road network proximity, rather than relying on administrative sub-city boundaries.
 
-## 🔍 Problem Statement
+## Problem Statement
 
 Traditional survey methods often allocate equal samples per administrative sub-city, regardless of their area or population density. This can lead to inefficient or biased data collection.
 
-## 🚀 Objective
+## Objective
 
 - Cluster roads in Addis Ababa using KMeans based on spatial proximity.
 - Identify optimal cluster centers to guide data collection.
@@ -17,7 +17,7 @@ Traditional survey methods often allocate equal samples per administrative sub-c
 - **Language**: Python
 - **Libraries**: `osmnx`, `geopandas`, `scikit-learn`, `plotly`, `matplotlib`, `seaborn`, `pandas`, `numpy`
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 addis-road-clustering/
@@ -27,29 +27,29 @@ addis-road-clustering/
 ├── requirements.txt   # Dependencies
 └── README.md
 ```
-## 📊 Results
+## Results
 
 - Road networks grouped into **5 optimal clusters**
 - Interactive map showing **cluster centers and road assignments**
 - **Silhouette Score** of `0.45` — moderately effective clustering
 
-## 🌍 Interactive Map
+## Interactive Map
 
 [Click here to view map](./output/map.html)
 *Hover to see cluster info; zoom to explore spatial coverage.*
 
-## ⚠️ Limitations
+## Limitations
 
 - Clustering only considers **spatial proximity** (no population/income data)
 - Only **road centroids** used; not building or service distribution
 
-## ✅ Future Work
+## Future Work
 
 - Include **population or service access data**
 - Use **density-aware clustering** (DBSCAN/HDBSCAN)
 - Automate **cluster evaluation and visualization pipeline**
 
-## 📖 Related Blog Post
+## Related Blog Post
 
 For a detailed walkthrough of the methods, visuals, and reasoning behind this project, check out the blog post on my website:
 
@@ -57,8 +57,7 @@ For a detailed walkthrough of the methods, visuals, and reasoning behind this pr
 
 ## 📄 License
 
-MIT License (or your preferred license)
-
+MIT License
 ---
 
 Feel free to **fork**, **modify**, or **build on this work**. If you use or share it, a **credit would be appreciated**!
