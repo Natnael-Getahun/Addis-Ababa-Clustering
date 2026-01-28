@@ -12,7 +12,7 @@ Traditional survey methods often allocate equal samples per administrative sub-c
 - Identify optimal cluster centers to guide data collection.
 - Generate visual and interactive outputs to support field application.
 
-## 🛠 Tools & Libraries
+## Tools & Libraries
 
 - **Language**: Python
 - **Libraries**: `osmnx`, `geopandas`, `scikit-learn`, `plotly`, `matplotlib`, `seaborn`, `pandas`, `numpy`
@@ -55,7 +55,7 @@ For a detailed walkthrough of the methods, visuals, and reasoning behind this pr
 
 👉 [Clustering New Addis Ababa 'Sub Cities': A Guide for Data Collectors](https://natnaelgetahun.netlify.app/project/new_subcities/)
 
-## 📄 License
+## License
 
 MIT License
 ---
